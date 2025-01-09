@@ -1,10 +1,17 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 *{
     margin:0;
     padding: 0;
 
 }
-
+body{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 /* Common Styles*/
 .primary_color{
   color: #FD6E0A;
@@ -111,7 +118,7 @@ nav li a {
 background-color: #fff;
   text-align: center;
 width: 825px;
-height: 280px;
+height:330px;
 padding:10px 5px;
 margin: 0 auto;
 border: 1px solid black;
@@ -159,7 +166,7 @@ border: 1px solid black;
 }
 .skills-box{
   width: 200px;
-  height: 280px;
+  height: 320px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 20px;
 }
